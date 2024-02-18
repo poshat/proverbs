@@ -6,9 +6,7 @@ const co = require('co');
 
 const db = require('../models/proverb');
 
-///mongoose.connect('mongodb://poshat:qwerty00@ds127802.mlab.com:27802/poshat', {useMongoClient: true});
-//mongoose.connect('mongodb://dbuser:oFpxqW71@127.0.0.1:27017/proverbs', {useMongoClient: true});
-mongoose.connect('mongodb://poshat1:oFpxqW71@127.0.0.1:27017/razdumki', {useMongoClient: true});
+mongoose.connect('mongodb://user:pass@127.0.0.1:27017/razdumki', {useMongoClient: true});
 
 mongoose.Promise = global.Promise;
 

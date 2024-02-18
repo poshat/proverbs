@@ -7,12 +7,7 @@ var api = require('./routes/api');
 
 var app = express();
 
-//mongoose.connect('mongodb://poshat:qwerty00@ds127802.mlab.com:27802/poshat', {useMongoClient: true});
-//mongoose.connect('mongodb://localhost:27017/proverbs', {useMongoClient: true});
-///mongoose.connect('mongodb://dbuser:oFpxqW71@127.0.0.1:27017/proverbs', {useMongoClient: true});
-mongoose.connect('mongodb://poshat:oFpxqW71@127.0.0.1:27017/proverbs');
-///mongoose.connect('mongodb://poshat2:oFpxqW71@127.0.0.1:27017/test?authSource=admin, {useMongoClient: true}');
-////mongoose.connect('mongodb://poshat:oFpxqW71@127.0.0.1:27017/razdumki, {useMongoClient: true}');
+mongoose.connect('mongodb://user:pass@127.0.0.1:27017/proverbs');
 
 mongoose.Promise = global.Promise;
 
